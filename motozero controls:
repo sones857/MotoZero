@@ -1,0 +1,13 @@
+motozero controls:
+
+motor.forward()     #Full speed forwards
+motor.forward(0.5)  #Half speed forwards
+
+motor.backward()    #Full speed backwards
+motor.backward(0.5) #Half speed backwards
+
+motor.stop()        #Stop
+
+motor.value = 0.5   #Half speed forwards
+motor.value = -0.5  #Half speed backwards
+motor.value = 0     #Stop
